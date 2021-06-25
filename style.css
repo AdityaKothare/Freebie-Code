@@ -71,6 +71,7 @@ img.unl-img-1 { position: absolute; top: 10%; left: 35%; }
 img.unl-img-2 { position: absolute; top: 10%; left: 0; } */
 .world-map { background-image: url(images/world-map.png); background-repeat: no-repeat; background-size: auto; background-position: left; }
 .our-presence .code-head { margin: 20px 0; font-weight: 700; font-size: 44px; }
+.our-presence { margin: 3rem 0; }
 
 @media only screen and (max-width: 768px) {
     img.unl-img-1 { left: 20%; }
@@ -138,3 +139,10 @@ ul.plan-details { padding-left: 0; margin-bottom: 0; }
 .carousel-control-next, .carousel-control-prev { color: #0000ff60 !important; font-size: 2rem; top: 60% !important; }
 .carousel-control-next:hover, .carousel-control-prev:hover { color: blue !important; }
 .carousel-control-prev { left: 75% !important; }
+.faq { margin: 5rem 0; }
+.faq .faq-header { text-align: center; width: 50%; margin-left: auto; margin-right: auto; }
+.faq .card { text-align: left; width: 100%; padding-bottom: 0; border-radius: 4px !important; border: none !important; background-color: #f5f7fa !important; }
+.card-header { width: 100%; text-align: left; background-color: #f5f7fa !important; border: none !important; }
+.faq .card-body { padding: 1rem 2rem; }
+button.btn.btn-link { font-weight: 700; font-size: 22px; color: #242f51; }
+button.btn.btn-link:focus, button.btn.btn-link:hover { text-decoration: none !important; }

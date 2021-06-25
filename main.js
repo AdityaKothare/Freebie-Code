@@ -7,7 +7,7 @@ toggler.addEventListener("change", ()=> {
         monthlyPrice.innerHTML = '$549<span>/ year</span>';
         yearlyPrice.innerHTML = '$999<span>/ year</span>';
     } else {
-        monthlyPrice.innerHTML = '$49<span>/ year</span>';
-        yearlyPrice.innerHTML = '$99<span>/ year</span>';
+        monthlyPrice.innerHTML = '$49<span>/ monthly</span>';
+        yearlyPrice.innerHTML = '$99<span>/ monthly</span>';
     }
 })

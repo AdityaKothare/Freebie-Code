@@ -9,6 +9,8 @@
         
         <!-- CSS -->
         <link href="style.css" rel="stylesheet">
+        <!-- JavaScript -->
+        <script src="main.js" defer></script>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -216,7 +218,7 @@
 
         <section class="unlimited">
             <div class="container">
-                <div class="row">
+                <div class="row align-center">
                     <div class="col-md-6">
                         <h1 class="code-head">Unlimited fratures that we build</h1>
                         <p class="hero-des">Increase productivity with a simple to-do app. App for managing your personal budgets. App for managing your personal budgets.</p>
@@ -246,10 +248,11 @@
                         </div>
                         <button class="btn-dark">See all</button>
                     </div>
-                    <div class="col-md-6 position-relative">
+                    <div class="col-md-6 feat-block">
                         <!-- <img class="unl-img-3" src="images/back-img.png" alt=""> -->
-                        <img class="unl-img-2" src="images/Phone5.png" alt="">
-                        <img class="unl-img-1" src="images/Phone4.png" alt="">
+                        <!-- <img class="unl-img-2" src="images/Phone5.png" alt="">
+                        <img class="unl-img-1" src="images/Phone4.png" alt=""> -->
+                        <img class="feat-img" src="images/feat.png" alt="Feature Phone Image">
                     </div>
                 </div>
             </div>
@@ -258,14 +261,134 @@
         <section id="pricing" class="pricing">
             <h1 class="code-head">Get awsome features, without extra charge</h1>
             <p class="hero-des">Increase productivity with a simple to-do app. App for managing your personal budgets. App for managing your personal budgets.</p>
-            <span class="pricing-btn">
+            <!-- <span class="pricing-btn">
                 <button class="btn-dark">Monthly</button>
                 <button class="btn-light">Yearly</button>
-            </span>
+            </span> -->
+            <div class="toggle-switch">
+                <input type="checkbox" class="toggler">
+            </div>
+            <div class="cards">
+                <!-- Business Class -->
+                <div class="card" id="card-1">
+                    <div class="plan-title">
+                        <h2 class="card-price" id="monthly-price">$49<span>/ month</span></h2>
+                        <h4 class="card-title">Business Class</h4>
+                        <p class="card-des">For small teams or office</p>
+                    </div>
+                    <ul class="plan-details">
+                        <li>Drag & Drop Builder</li>
+                        <li>1,000's of Templates</li>
+                        <li>Blog Support Tools</li>
+                        <li>eCommerce Store</li>
+                    </ul>
+                    <button class="card-btn">Start Free Trail</button>
+                </div>
+                <!-- Pro Master -->
+                <div class="card" id="card-2">
+                    <div class="plan-title">
+                        <h2 class="card-price" id="yearly-price">$99<span>/ month</span></h2>
+                        <h4 class="card-title">Pro Master</h4>
+                        <p class="card-des">For best opportunities</p>
+                    </div>
+                    <ul class="plan-details">
+                        <li>Drag & Drop Builder</li>
+                        <li>1,000's of Templates</li>
+                        <li>Blog Support Tools</li>
+                        <li>eCommerce Store</li>
+                    </ul>
+                    <button class="card-btn">Subscribe Now</button>
+                    <span class="pricing-trail"><a href="#trails">Or Start 14 days trail</a></span>
+                </div>
+            </div>
         </section>
-
-        <section class="our-presence">
-
+        <hr>
+        <section class="our-presence world-map">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <h1 class="code-head">Meet Client Satisfaction by using product</h1>
+                        <p class="hero-des">Increase productivity with a simple to-do app. App for managing your personal budgets.</p>
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="testimonial-slider">
+                                        <div class="testimonial">
+                                            <div class="rating-stars">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                            </div>
+                                            <h4 class="testimonial-title">User friendly & Customizable</h4>
+                                            <p class="testimonial-des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dolor nibh, semper at pretium vitae, tincidunt non risus. Aenean mattis sit amet ex nec venenatis. Pellentesque tempus pellentesque efficitur. Nulla commodo bibendum quam, at imperdiet orci congue non. Maecenas interdum.</p>
+                                            <div class="author-details">
+                                                <div class="author-img"><img src="images/3974.png" ></div>
+                                                <div class="author-des">
+                                                    <h5>Zolthan Nemeth</h5>
+                                                    <p>CEO | Pixler Lab</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="testimonial-slider">
+                                        <div class="testimonial">
+                                            <div class="rating-stars">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            </div>
+                                            <h4 class="testimonial-title">Responsive Designs & Easy to Chnage</h4>
+                                            <p class="testimonial-des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dolor nibh, semper at pretium vitae, tincidunt non risus. Aenean mattis sit amet ex nec venenatis. Pellentesque tempus pellentesque efficitur. Nulla commodo bibendum quam, at imperdiet orci congue non. Maecenas interdum.</p>
+                                            <div class="author-details">
+                                                <div class="author-img"><img src="images/220453.png" ></div>
+                                                <div class="author-des">
+                                                    <h5>Edwin Cooper</h5>
+                                                    <p>MD | Ashwi Group</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="testimonial-slider">
+                                        <div class="testimonial">
+                                            <div class="rating-stars">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            </div>
+                                            <h4 class="testimonial-title">24/7 Sales & Support</h4>
+                                            <p class="testimonial-des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dolor nibh, semper at pretium vitae, tincidunt non risus. Aenean mattis sit amet ex nec venenatis. Pellentesque tempus pellentesque efficitur. Nulla commodo bibendum quam, at imperdiet orci congue non. Maecenas interdum.</p>
+                                            <div class="author-details">
+                                                <div class="author-img"><img src="images/736716.png" ></div>
+                                                <div class="author-des">
+                                                    <h5>Aditya Kothare</h5>
+                                                    <p>Founder | RitB1213 Corp.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="faq"></section>
